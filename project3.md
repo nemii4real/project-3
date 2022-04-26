@@ -386,6 +386,7 @@ Start your server using the command:
 
   make sure your set header key Content-Type as application/json
 
+  Click on body and select raw
 
 
   CREATE - HTTP GET request, HTTP POST request, then send request.
@@ -396,6 +397,10 @@ Start your server using the command:
    
   [Postman](https://www.postman.com/interstellar-firefly-586561/workspace/nemi-bonnie/request/create?requestId=37e7531e-34ae-4a65-aae7-ae05a9880dc4)
 
+
+  
+
+  ![Postman](./images/Postman-get-post.png)
 
 
 
@@ -409,7 +414,7 @@ Start your server using the command:
 
 
 
-![Client created](images/npx-created-client-created.png)
+
 
 
 I had a problem installing npx create-react-app client because node.js version is not updated. This is how I updated it.
