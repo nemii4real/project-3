@@ -356,7 +356,7 @@ next();
 
 app.listen(port, () => {
 console.log(`Server running on port ${port}`)
-});
+});'
 
 
 Using environment variables to store information is considered more secure and best practice to separate configuration and secret data from the application, instead of writing connection strings directly inside the index.js application file.
@@ -509,7 +509,7 @@ Inside ‘components’ directory create three files `touch Input.js ListTodo.js
 
 
 
-import React, { Component } from 'react';
+`import React, { Component } from 'react';
 import axios from 'axios';
 
 class Input extends Component {
@@ -553,7 +553,7 @@ return (
 }
 }
 
-export default Input
+export default Input`
 
 
 
@@ -573,7 +573,7 @@ Go to ‘components’ directory `cd src/components`
 open `vi ListTodo.js` copy and paste code below
 
 
-import React from 'react';
+`import React from 'react';
 
 const ListTodo = ({ todos, deleteTodo }) => {
 
@@ -598,7 +598,7 @@ return (
 )
 }
 
-export default ListTodo
+export default ListTodo`
 
 
 
@@ -608,7 +608,7 @@ Then in your `vi Todo.js` file you write the following code, in the same directo
 
 
 
-import React, {Component} from 'react';
+`import React, {Component} from 'react';
 import axios from 'axios';
 
 import Input from './Input';
@@ -662,7 +662,7 @@ let { todos } = this.state;
 }
 }
 
-export default Todo;
+export default Todo;`
 
 
 Then `cd ..` to move to src folder
@@ -672,7 +672,7 @@ Then `cd ..` to move to src folder
 src folder `vi App.js` delete code and paste code below
 
 
-import React from 'react';
+`import React from 'react';
 
 import Todo from './components/Todo';
 import './App.css';
@@ -777,7 +777,7 @@ width: 30%;
 margin-left: 10px;
 margin-top: 0;
 }
-}
+}`
 
 
 
@@ -787,7 +787,7 @@ In the src directory open the index.css `vim index.css` paste code below
 
 
 
-body {
+`body {
 margin: 0;
 padding: 0;
 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -803,7 +803,7 @@ color: #787a80;
 code {
 font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
 monospace;
-}
+}`
 
 
 
